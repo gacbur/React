@@ -1,0 +1,76 @@
+*{
+    font-family:tahoma;
+}
+
+.button-cart{
+    cursor:pointer;
+    font-size: 1.3em; 
+    padding: .7em 1em; 
+    background-color: lightgray;
+    color:black;
+    border:none
+}
+
+button:disabled{
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+button + button{
+    margin-left: 5px;
+}
+
+h1{
+    padding-left:1em;
+    padding-right:1em;
+    font-size: 1.3em;
+    display: inline;
+}
+
+.button-cart-buy{
+    background-color: rgb(63, 141, 189);
+    color:white;
+    cursor:pointer;
+    font-size: 1.3em; 
+    padding: .7em 1em; 
+    border:none
+}
+
+.outOfStockMessage{
+    font-weight: 500;
+    display: block;
+    padding-top:1em;
+    font-size: 12px; 
+    color:red;
+}
+
+label{
+    font-weight: 500;
+    display: block;
+    padding-top:1em;
+    font-size: 12px;
+    padding:0em 0em 2em 0em;
+}
+
+input{
+    width:97%;
+}
+
+.powiadomEmail{
+    margin-top:3em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    width:310px;
+    padding:2em;
+}
+
+.btnpowiadomEmail{
+    width:100%;
+    margin-top:1em;
+    padding: .5em;
+    background-color: rgb(63, 141, 189);
+    color:white;
+    cursor:pointer;
+    border:none
+}
+
