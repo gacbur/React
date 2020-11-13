@@ -58,7 +58,6 @@ class Clock extends React.Component {
         clearInterval(this.interval)
     }
 
-
     render() {
 
         const { hours, minutes, seconds } = this.state.time
